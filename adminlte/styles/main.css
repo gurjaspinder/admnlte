@@ -1,0 +1,165 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #F4F6F9;
+}
+
+.sidenav {
+  height: -webkit-fill-available;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #343A40;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 7px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 369px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#P1{
+  color: #f1f1f1;
+}
+
+.img1{
+  width: 69px;
+  display: inline-block;
+  position: relative;
+  width: 69px;
+  height: 69px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-bottom: 6px;
+}
+
+#admn{
+  float: right; 
+  margin-right: 69px;
+  margin-left: 0px;
+
+}
+
+#form1{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 42px;
+}
+
+hr.new4 {
+  border: 1px solid rgb(143, 136, 136);
+}
+
+ul {
+  list-style-type: none;
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  width: 1338px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(71, 67, 67);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(206, 200, 200);
+}
+
+#blue{
+  background-color: #17A2B8;
+  /* margin-right: 871; */
+  width: 260px;
+}
+
+#green{
+  float: right;
+  background-color: #28A745;
+  margin-right: 976px;
+  width: 270px;
+  margin-top: -156px;
+}
+
+#yellow{
+    float: right;
+    background-color: #FFC107;
+    margin-right: 683px;
+    width: 285px;
+    margin-top: -156px;
+}
+
+#red{
+  float: right;
+  background-color: #DC3545;
+  margin-right: 415px;
+  width: 260px;
+  margin-top: -156px;
+}
+
+#imggraph{
+  width: 600px;
+}
+
+#imgmap{
+  width: 460px;
+  margin-left: 38px;
+}
+
+#myProgress {
+  width: 40%;
+  background-color: #ddd;
+  margin-left: 403px;
+  padding-left: 1px;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #0cb6e0;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#h1{
+  margin-left: -33px;
+  padding-left: 435px;
+}
+
+#pbar{
+  margin-left: 407px;
+  padding-left: 4px;
+}
